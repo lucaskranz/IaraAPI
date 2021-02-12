@@ -9,7 +9,6 @@ namespace IaraAPI.Models
     public class Cotacao
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int CotacaoId { get; set; }
 
         [Required]
