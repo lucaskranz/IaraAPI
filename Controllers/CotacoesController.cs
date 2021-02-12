@@ -25,7 +25,7 @@ namespace IaraAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cotacao>>> GetCotacao()
         {
-            return await _context.Cotacao.ToListAsync();
+            return await _context.Cotacao.Include(a => a.CotacaoItens).ToListAsync();
         }
 
         // GET: api/Cotacoes/5
