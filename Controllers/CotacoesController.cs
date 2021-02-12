@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using IaraAPI.Data;
 using IaraAPI.Models;
+using System.Web;
+using IaraAPI.Libraries;
+using RestSharp;
+using RestSharp.Serialization.Json;
 
 namespace IaraAPI.Controllers
 {
@@ -78,7 +82,22 @@ namespace IaraAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Cotacao>> PostCotacao(Cotacao cotacao)
         {
+            if (!String.IsNullOrEmpty(cotacao.CEP))
+            {
+                DadosRetorno dadosRetorno = Utils.GetViaCEP(cotacao.CEP);
+
+                if (dadosRetorno != null) 
+                { 
+                    if(String.IsNullOrEmpty(cotacao.Logradouro))
+                        cotacao.Logradouro = dadosRetorno.logradouro;
+                    if (String.IsNullOrEmpty(cotacao.UF))
+                        cotacao.UF = dadosRetorno.uf;
+                    if (String.IsNullOrEmpty(cotacao.Bairro))
+                        cotacao.Bairro = dadosRetorno.bairro;
+                }
+            }
             _context.Cotacao.Add(cotacao);
+
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetCotacao", new { id = cotacao.CotacaoId }, cotacao);

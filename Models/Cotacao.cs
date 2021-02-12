@@ -31,7 +31,7 @@ namespace IaraAPI.Models
         public DateTime DataEntregaCotacao { get; set; }
 
         [Required]
-        [MaxLength(9, ErrorMessage = "O Campo CEP suporta apenas {1} caracteres")]
+        [MaxLength(8, ErrorMessage = "O Campo CEP suporta apenas {1} caracteres")]
         public string CEP { get; set; }
 
         [MaxLength(50, ErrorMessage = "O Campo Logradouro suporta apenas {1} caracteres")]
