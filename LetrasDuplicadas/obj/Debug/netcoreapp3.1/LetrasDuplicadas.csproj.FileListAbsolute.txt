@@ -1,0 +1,13 @@
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.csprojAssemblyReference.cache
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.AssemblyInfo.cs
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\bin\Debug\netcoreapp3.1\LetrasDuplicadas.exe
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\bin\Debug\netcoreapp3.1\LetrasDuplicadas.deps.json
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\bin\Debug\netcoreapp3.1\LetrasDuplicadas.runtimeconfig.json
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\bin\Debug\netcoreapp3.1\LetrasDuplicadas.runtimeconfig.dev.json
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\bin\Debug\netcoreapp3.1\LetrasDuplicadas.dll
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\bin\Debug\netcoreapp3.1\LetrasDuplicadas.pdb
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.dll
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.pdb
+C:\Users\lucas\source\repos\IaraAPI\LetrasDuplicadas\obj\Debug\netcoreapp3.1\LetrasDuplicadas.genruntimeconfig.cache
