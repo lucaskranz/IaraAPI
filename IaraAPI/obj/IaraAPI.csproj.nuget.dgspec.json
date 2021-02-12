@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI.csproj": {}
+    "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI\\IaraAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI.csproj": {
+    "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI\\IaraAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI\\IaraAPI.csproj",
         "projectName": "IaraAPI",
-        "projectPath": "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI.csproj",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI\\IaraAPI.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\source\\repos\\IaraAPI\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\IaraAPI\\IaraAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
