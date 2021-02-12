@@ -15,5 +15,7 @@ namespace IaraAPI.Data
         }
 
         public DbSet<IaraAPI.Models.CotacaoItem> CotacaoItem { get; set; }
+
+        public DbSet<IaraAPI.Models.Cotacao> Cotacao { get; set; }
     }
 }
